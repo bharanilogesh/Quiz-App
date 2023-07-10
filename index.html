@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <!-- favicon-->
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+
+    <!--fontawesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--normalise CSS-->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!--custom CSS-->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz">
+      <div class="header">
+        <h1 id="question">Question</h1>
+        <ol>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer"> <label for="1" id="option1">Option</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="b" class="answer"> <label for="2" id="option2">Option</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="c" class="answer"> <label for="3" id="option3">Option</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="d" class="answer"> <label for="4" id="option4">Option</label>
+          </li>
+        </ol>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+    <!--custom JS-->
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
